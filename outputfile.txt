@@ -1,0 +1,252 @@
+[Seed 7234] Running at 127.0.0.1:7234
+[Seed 6071] Running at 127.0.0.1:6071
+[Seed 5002] Running at 127.0.0.1:5002
+[Peer a] Started at 127.0.0.1:50101
+[Seed 5002] Connected peer: 127.0.0.1:50101
+[Peer a] Registered with Seed 127.0.0.1:5002
+[Seed 7234] Connected peer: 127.0.0.1:50101
+[Peer a] Registered with Seed 127.0.0.1:7234
+[Peer b] Started at 127.0.0.1:54370
+[Seed 7234] Connected peer: 127.0.0.1:54370
+[Peer b] Registered with Seed 127.0.0.1:7234
+[Peer a] Connected to new peer: 127.0.0.1: 54370
+[Seed 5002] Connected peer: 127.0.0.1:54370
+[Peer b] Registered with Seed 127.0.0.1:5002
+[Peer b] Connected to new peer: ('127.0.0.1', '50101')
+[Peer a] Sending PING to 127.0.0.1:54370
+[Peer a] Received PING_REPLY from 127.0.0.1:54370
+[Peer b] Sending PING to 127.0.0.1:50101
+[Peer b] Received PING_REPLY from 127.0.0.1:50101
+[Peer a] Generated Gossip Message: [2026-02-26 20->28.41]:127.0.0.1: Message 0 [Hello from a]
+[Peer b] Received Gossip Message: [2026-02-26 20->28.41]:127.0.0.1: Message 0 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer c] Started at 127.0.0.1:50585
+[Seed 5002] Connected peer: 127.0.0.1:50585
+[Peer b] Connected to new peer: 127.0.0.1: 50585
+[Peer a] Connected to new peer: 127.0.0.1: 50585
+[Peer c] Registered with Seed 127.0.0.1:5002
+[Seed 7234] Connected peer: 127.0.0.1:50585
+[Peer c] Registered with Seed 127.0.0.1:7234
+[Peer c] Connected to new peer: ('127.0.0.1', '54370')
+[Peer c] Connected to new peer: ('127.0.0.1', '50101')
+[Peer a] Sending PING to 127.0.0.1:50585
+[Peer a] Sending PING to 127.0.0.1:54370
+[Peer a] Received PING_REPLY from 127.0.0.1:50585
+[Peer a] Received PING_REPLY from 127.0.0.1:54370
+[Peer a] Generated Gossip Message: [2026-02-26 20->28.46]:127.0.0.1: Message 1 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Received Gossip Message: [2026-02-26 20->28.46]:127.0.0.1: Message 1 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Received Gossip Message: [2026-02-26 20->28.46]:127.0.0.1: Message 1 [Hello from a]
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer b] Sending PING to 127.0.0.1:50101
+[Peer b] Sending PING to 127.0.0.1:50585
+[Peer b] Received PING_REPLY from 127.0.0.1:50101
+[Peer b] Received PING_REPLY from 127.0.0.1:50585
+[Peer a] Generated Gossip Message: [2026-02-26 20->28.51]:127.0.0.1: Message 2 [Hello from a]
+[Peer c] Received Gossip Message: [2026-02-26 20->28.51]:127.0.0.1: Message 2 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Received Gossip Message: [2026-02-26 20->28.51]:127.0.0.1: Message 2 [Hello from a]
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Sending PING to 127.0.0.1:54370
+[Peer c] Sending PING to 127.0.0.1:50101
+[Peer c] Received PING_REPLY from 127.0.0.1:54370
+[Peer c] Received PING_REPLY from 127.0.0.1:50101
+[Peer b] Generated Gossip Message: [2026-02-26 20->28.56]:127.0.0.1: Message 0 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Received Gossip Message: [2026-02-26 20->28.56]:127.0.0.1: Message 0 [Hello from b]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Received Gossip Message: [2026-02-26 20->28.56]:127.0.0.1: Message 0 [Hello from b]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Generated Gossip Message: [2026-02-26 20->28.56]:127.0.0.1: Message 3 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Received Gossip Message: [2026-02-26 20->28.56]:127.0.0.1: Message 3 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Received Gossip Message: [2026-02-26 20->28.56]:127.0.0.1: Message 3 [Hello from a]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Sending PING to 127.0.0.1:50585
+[Peer a] Sending PING to 127.0.0.1:54370
+[Peer a] Received PING_REPLY from 127.0.0.1:50585
+[Peer a] Received PING_REPLY from 127.0.0.1:54370
+[Peer b] Sending PING to 127.0.0.1:50101
+[Peer b] Sending PING to 127.0.0.1:50585
+[Peer b] Received PING_REPLY from 127.0.0.1:50101
+[Peer b] Received PING_REPLY from 127.0.0.1:50585
+[Peer d] Started at 127.0.0.1:52605
+[Peer b] Generated Gossip Message: [2026-02-26 20->29.01]:127.0.0.1: Message 1 [Hello from b]
+[Peer a] Received Gossip Message: [2026-02-26 20->29.01]:127.0.0.1: Message 1 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Received Gossip Message: [2026-02-26 20->29.01]:127.0.0.1: Message 1 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Generated Gossip Message: [2026-02-26 20->29.01]:127.0.0.1: Message 4 [Hello from a]
+[Peer c] Received Gossip Message: [2026-02-26 20->29.01]:127.0.0.1: Message 4 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Received Gossip Message: [2026-02-26 20->29.01]:127.0.0.1: Message 4 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Seed 5002] Connected peer: 127.0.0.1:52605
+[Peer b] Connected to new peer: 127.0.0.1: 52605
+[Peer a] Connected to new peer: 127.0.0.1: 52605
+[Peer c] Connected to new peer: 127.0.0.1: 52605
+[Peer d] Registered with Seed 127.0.0.1:5002
+[Seed 6071] Connected peer: 127.0.0.1:52605
+[Peer d] Registered with Seed 127.0.0.1:6071
+[Peer d] Connected to new peer: ('127.0.0.1', '50585')
+[Peer d] Connected to new peer: ('127.0.0.1', '54370')
+[Peer b] Generated Gossip Message: [2026-02-26 20->29.06]:127.0.0.1: Message 2 [Hello from b]
+[Peer d] Received Gossip Message: [2026-02-26 20->29.06]:127.0.0.1: Message 2 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer d] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer a] Received Gossip Message: [2026-02-26 20->29.06]:127.0.0.1: Message 2 [Hello from b]
+[Peer d] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer c] Received Gossip Message: [2026-02-26 20->29.06]:127.0.0.1: Message 2 [Hello from b]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer a] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer c] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Generated Gossip Message: [2026-02-26 20->29.06]:127.0.0.1: Message 5 [Hello from a]
+[Peer c] Received Gossip Message: [2026-02-26 20->29.06]:127.0.0.1: Message 5 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer a] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer d] Received Gossip Message: [2026-02-26 20->29.06]:127.0.0.1: Message 5 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer d] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer b] Received Gossip Message: [2026-02-26 20->29.06]:127.0.0.1: Message 5 [Hello from a]
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer c] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Sending PING to 127.0.0.1:54370
+[Peer c] Sending PING to 127.0.0.1:52605
+[Peer c] Sending PING to 127.0.0.1:50101
+[Peer c] Received PING_REPLY from 127.0.0.1:54370
+[Peer c] Received PING_REPLY from 127.0.0.1:52605
+[Peer c] Received PING_REPLY from 127.0.0.1:50101
+[Peer b] Generated Gossip Message: [2026-02-26 20->29.11]:127.0.0.1: Message 3 [Hello from b]
+[Peer d] Received Gossip Message: [2026-02-26 20->29.11]:127.0.0.1: Message 3 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer d] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Received Gossip Message: [2026-02-26 20->29.11]:127.0.0.1: Message 3 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Received Gossip Message: [2026-02-26 20->29.11]:127.0.0.1: Message 3 [Hello from b]
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer a] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer a] Sending PING to 127.0.0.1:50585
+[Peer a] Sending PING to 127.0.0.1:52605
+[Peer a] Received PING_REPLY from 127.0.0.1:50585
+[Peer a] Sending PING to 127.0.0.1:54370
+[Peer a] Received PING_REPLY from 127.0.0.1:52605
+[Peer a] Received PING_REPLY from 127.0.0.1:54370
+[Peer a] Generated Gossip Message: [2026-02-26 20->29.11]:127.0.0.1: Message 6 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Received Gossip Message: [2026-02-26 20->29.11]:127.0.0.1: Message 6 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer d] Received Gossip Message: [2026-02-26 20->29.11]:127.0.0.1: Message 6 [Hello from a]
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+1]:127.0.0.1: Message 6 [Hello from a]
+[Peer d] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer b] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer d] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Sending PING to 127.0.0.1:52605
+[Peer b] Sending PING to 127.0.0.1:50101
+[Peer b] Received PING_REPLY from 127.0.0.1:52605
+[Peer b] Sending PING to 127.0.0.1:50585
+[Peer b] Received PING_REPLY from 127.0.0.1:50101
+[Peer b] Received PING_REPLY from 127.0.0.1:50585
+[Peer d] Sending PING to 127.0.0.1:50585
+[Peer d] Sending PING to 127.0.0.1:54370
+[Peer d] Received PING_REPLY from 127.0.0.1:50585
+[Peer d] Received PING_REPLY from 127.0.0.1:54370
+[Peer b] Generated Gossip Message: [2026-02-26 20->29.16]:127.0.0.1: Message 4 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer d] Received Gossip Message: [2026-02-26 20->29.16]:127.0.0.1: Message 4 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer d] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer a] Received Gossip Message: [2026-02-26 20->29.16]:127.0.0.1: Message 4 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Received Gossip Message: [2026-02-26 20->29.16]:127.0.0.1: Message 4 [Hello from b]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer d] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer a] Generated Gossip Message: [2026-02-26 20->29.16]:127.0.0.1: Message 7 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Received Gossip Message: [2026-02-26 20->29.16]:127.0.0.1: Message 7 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer d] Received Gossip Message: [2026-02-26 20->29.16]:127.0.0.1: Message 7 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Received Gossip Message: [2026-02-26 20->29.16]:127.0.0.1: Message 7 [Hello from a]
+[Peer d] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer b] Forwarded Gossip Message to 127.0.0.1:52605
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer d] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer d] Shutdown complete. Seed yet to be updated (to be informed by other peers in the network)
+[Peer c] Generated Gossip Message: [2026-02-26 20->29.17]:127.0.0.1: Message 0 [Hello from c]
+[Peer b] Received Gossip Message: [2026-02-26 20->29.17]:127.0.0.1: Message 0 [Hello from c]
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer c] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Received Gossip Message: [2026-02-26 20->29.17]:127.0.0.1: Message 0 [Hello from c]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer b] Generated Gossip Message: [2026-02-26 20->29.21]:127.0.0.1: Message 5 [Hello from b]
+[Peer c] Sending PING to 127.0.0.1:54370
+[Peer c] Sending PING to 127.0.0.1:52605
+[Peer c] Received PING_REPLY from 127.0.0.1:54370
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer a] Generated Gossip Message: [2026-02-26 20->29.22]:127.0.0.1: Message 8 [Hello from a]
+[Peer a] Forwarded Gossip Message to 127.0.0.1:50585
+[Peer c] Received Gossip Message: [2026-02-26 20->29.22]:127.0.0.1: Message 8 [Hello from a]
+[Peer c] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Received Gossip Message: [2026-02-26 20->29.22]:127.0.0.1: Message 8 [Hello from a]
+[Peer c] Shutdown complete. Seed yet to be updated (to be informed by other peers in the network)
+[Peer a] Received Gossip Message: [2026-02-26 20->29.21]:127.0.0.1: Message 5 [Hello from b]
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Forwarded Gossip Message to 127.0.0.1:54370
+[Peer b] Forwarded Gossip Message to 127.0.0.1:50101
+[Peer a] Sending PING to 127.0.0.1:50585
+[Peer b] Shutdown complete. Seed yet to be updated (to be informed by other peers in the network)
+[Peer a] Failed to PING 127.0.0.1:50585 (1 failed attempts)
+[Peer a] Sending PING to 127.0.0.1:52605
+[Peer a] Failed to PING 127.0.0.1:52605 (1 failed attempts)
+[Peer a] Sending PING to 127.0.0.1:54370
+[Peer a] Generated Gossip Message: [2026-02-26 20->29.29]:127.0.0.1: Message 9 [Hello from a]
+[Peer a] Shutdown complete. Seed yet to be updated (to be informed by other peers in the network)
