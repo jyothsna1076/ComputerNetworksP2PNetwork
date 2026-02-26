@@ -1,7 +1,8 @@
 # P2P Gossip Network Implementation
 
 **Instructor:** Nitin Awathare  
-**Course:** Computer Networks
+**Course:** Computer Networks   
+
 **Language Used:** Python  
 **Development Environment:** Windows 10/11  
 **Team Members:**  
